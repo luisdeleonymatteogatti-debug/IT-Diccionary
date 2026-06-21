@@ -53,6 +53,13 @@ p {
     left: 1.5em;
 }
 
+.linea-vertical {
+  border-left: 2px solid #000; /* Grosor, estilo y color de la línea */
+  height: 100px;               /* Altura de la línea */
+  display: inline-block;
+}
+
+
 .button:hover {
     background: rgb(161, 161, 161);
 
