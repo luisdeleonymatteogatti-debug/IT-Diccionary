@@ -30,14 +30,29 @@ p {
     align-items: center;
 }
 
-.separador {
-  border-left: 1px solid #FFFFFF;
-  height: 20px; /* Ajusta la altura a lo que necesites */
-  display: inline-block;
-  margin: 0 10px; /* Espaciado a los lados de la línea */
-}
+    .libro-contenedor {
+      display: flex;
+      width: 90vw; /* Ancho del libro (90% de la pantalla) */
+      height: 90vh; /* Alto del libro (90% de la pantalla) */
+      background-color: #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1); /* Sombra elegante */
+    }
 
+    /* Columnas de texto (Páginas) */
+    .pagina {
+      flex: 1; /* Hace que ambas páginas midan exactamente lo mismo */
+      padding: 40px;
+      overflow-y: auto; /* Permite scroll individual si el texto es muy largo */
+      text-align: justify; /* Alineación de texto tipo libro */
+      line-height: 1.6;
+    }
 
+    /* La línea vertical divisoria */
+    .linea-divisoria {
+      width: 1px; /* Grosor de la línea */
+      background-color: #ccc; /* Color gris claro */
+      align-self: stretch; /* Se estira a lo largo de todo el contenedor */
+    }
 
 .text-container {
     display: block;
