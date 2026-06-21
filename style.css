@@ -40,11 +40,13 @@ p {
 
     /* Columnas de texto (Páginas) */
     .pagina {
-      flex: 1; /* Hace que ambas páginas midan exactamente lo mismo */
+      flex: 1;
       padding: 40px;
-      overflow-y: auto; /* Permite scroll individual si el texto es muy largo */
-      text-align: justify; /* Alineación de texto tipo libro */
+      overflow-y: auto;
+      text-align: justify;
       line-height: 1.6;
+      background-color: #fff; /* Asegura el fondo blanco de la página */
+      color: #000;            /* Hace que el texto de la página sea negro */
     }
 
     /* La línea vertical divisoria */
