@@ -45,8 +45,7 @@ p {
       overflow-y: auto;
       text-align: justify;
       line-height: 1.6;
-      background-color: #fff; /* Asegura el fondo blanco de la página */
-      color: #000;            /* Hace que el texto de la página sea negro */
+      background: rgb(10, 10, 10); /* Asegura el fondo blanco de la página */
     }
 
     /* La línea vertical divisoria */
