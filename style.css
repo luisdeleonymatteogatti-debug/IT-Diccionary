@@ -89,3 +89,7 @@ p {
     background: rgb(161, 161, 161);
 
 }
+
+img {
+object-fit: contain;
+}
