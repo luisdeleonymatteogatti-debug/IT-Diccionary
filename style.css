@@ -26,6 +26,10 @@ p {
     margin-bottom: 5px;
 }
 
+img {
+object-fit: contain;
+}
+
 .lista-vertical {
     display: flex;
     flex-direction: column;
@@ -88,8 +92,4 @@ p {
 .button:hover {
     background: rgb(161, 161, 161);
 
-}
-
-img {
-object-fit: contain;
 }
