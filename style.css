@@ -15,21 +15,6 @@ h4 {
     color: #ffffff;
 }
 
-.text-container-justify {
-    display: block;
-    padding-bottom: 15px;
-    background: rgb(10, 10, 10);
-    min-width: 700px;
-    max-width: 700px;
-    p {
-    max-width: 700px;
-    line-height: 1.6;
-    margin-bottom: 5px;
-        text-align: justify;
-}
-    
-}
-
 h2 {
     color: #0091ff;
     font-size: 2em;
@@ -89,7 +74,14 @@ object-fit: contain;
     text-align: center;
 }
 
-
+.text-container-justify {
+    display: block;
+    padding-bottom: 15px;
+    background: rgb(10, 10, 10);
+    min-width: 700px;
+    max-width: 700px;
+    text-align: justify; 
+}
 
 
 .button {
