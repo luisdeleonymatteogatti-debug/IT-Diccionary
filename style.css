@@ -11,6 +11,12 @@ h1 {
     font-size: 6em;
 }
 
+h4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 6em;
+}
+
 h2 {
     color: #0091ff;
     font-size: 2em;
@@ -45,8 +51,7 @@ p {
     overflow-y: auto;
     text-align: justify;
     line-height: 1.6;
-   background: rgb(10, 10, 10);/* Asegura el fondo blanco de la página */
-    color: #ffffff;            /* Hace que el texto de la página sea negro */
+   background: rgb(10, 10, 10);
     }
 
     /* La línea vertical divisoria */
