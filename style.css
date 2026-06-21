@@ -30,11 +30,13 @@ p {
     align-items: center;
 }
 
-.linea-vertical {
-  border-left: 2px solid #FFFFFF; /* Grosor, estilo y color de la línea */
-  height: 1000px; /* Altura de la línea */
-  margin: 0 auto; /* Centrar la línea si es necesario */
+.separador {
+  border-left: 1px solid #FFFFFF;
+  height: 20px; /* Ajusta la altura a lo que necesites */
+  display: inline-block;
+  margin: 0 10px; /* Espaciado a los lados de la línea */
 }
+
 
 
 .text-container {
