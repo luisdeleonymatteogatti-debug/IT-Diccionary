@@ -6,25 +6,70 @@
   <title>Digital Language</title>
 <link rel="stylesheet" href="style.css">
 </head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Diseño Estilo Libro</title>
+  <style>
+    /* Asegura que el fondo ocupe toda la pantalla */
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f5f5; /* Fondo suave */
+      font-family: serif; /* Estilo de letra tipo libro */
+    }
 
+    /* Contenedor principal estilo libro */
+    .libro-contenedor {
+      display: flex;
+      width: 90vw; /* Ancho del libro (90% de la pantalla) */
+      height: 90vh; /* Alto del libro (90% de la pantalla) */
+      background-color: #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1); /* Sombra elegante */
+    }
+
+    /* Columnas de texto (Páginas) */
+    .pagina {
+      flex: 1; /* Hace que ambas páginas midan exactamente lo mismo */
+      padding: 40px;
+      overflow-y: auto; /* Permite scroll individual si el texto es muy largo */
+      text-align: justify; /* Alineación de texto tipo libro */
+      line-height: 1.6;
+    }
+
+    /* La línea vertical divisoria */
+    .linea-divisoria {
+      width: 1px; /* Grosor de la línea */
+      background-color: #ccc; /* Color gris claro */
+      align-self: stretch; /* Se estira a lo largo de todo el contenedor */
+    }
+  </style>
+</head>
 <body>
 
-
-  <h1>Digital Language</h1>
-  <hr>
-  <div class="lista-vertical">
-
-
-    <div class="text-container">
-      <h2>Abbreviations:</h2>
-      <p>For = 4 <span class="separador"></span> In Spanish: Correo Electrónico</p>
-      <p>Hate = H8 <span class="separador"></span> In Spanish: Correo Electrónico</p>
-    
+  <div class="libro-contenedor">
+    <!-- Página Izquierda -->
+    <div class="pagina">
+      <h2>Words</h2>
+      <p>Este es el texto del lado izquierdo. Aquí puedes comenzar a escribir tu historia, artículo o contenido. Al usar Flexbox, esta columna se adaptará perfectamente al tamaño de la pantalla.</p>
     </div>
 
+    <!-- Línea Vertical Central -->
+    <div class="linea-divisoria"></div>
+
+    <!-- Página Derecha -->
+    <div class="pagina">
+      <h2>Abbreviations</h2>
+      <p>Este es el texto del lado derecho. La línea del medio se mantendrá firme sin importar cuánto texto agregues en cualquiera de los dos lados, simulando la separación de las hojas de un libro abierto.</p>
+    </div>
   </div>
-  <hr>
-  <a href="index.html" class="button">Go back to Index</a>
+
 </body>
+</html>
 
 </html>
