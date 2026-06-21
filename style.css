@@ -29,6 +29,7 @@ p {
     align-items: center;
 }
 
+   
     .libro-contenedor {
       display: flex;
       width: 90vw; /* Ancho del libro (90% de la pantalla) */
@@ -44,7 +45,8 @@ p {
     overflow-y: auto;
     text-align: justify;
     line-height: 1.6;
-    background: rgb(10, 10, 10);
+   background: rgb(10, 10, 10);/* Asegura el fondo blanco de la página */
+    color: #000;            /* Hace que el texto de la página sea negro */
     }
 
     /* La línea vertical divisoria */
@@ -53,6 +55,7 @@ p {
       background-color: #ccc; /* Color gris claro */
       align-self: stretch; /* Se estira a lo largo de todo el contenedor */
     }
+
 
 .text-container {
     display: block;
