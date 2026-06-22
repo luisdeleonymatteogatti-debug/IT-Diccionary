@@ -74,6 +74,17 @@ object-fit: contain;
     text-align: center;
 }
 
+.text-container-height {
+    display: block;
+    padding-bottom: 15px;
+    background: rgb(10, 10, 10);
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 600px;
+    max-height: 3000px;
+    text-align: center;
+}
+
 .text-container-justify {
     display: block;
     padding-bottom: 15px;
