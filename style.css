@@ -231,14 +231,15 @@ img {
 
 .goBack{
 
-    position: absolute;
+    position: fixed;
+    top: 10%;
 
 }
 
 .goNext{
 
-    position: absolute;
-    left: 50%;
+    position: fixed;
+    left: 80%;
 
 }
 
