@@ -232,14 +232,20 @@ img {
 .goBack{
 
     position: fixed;
-    bottom: 15%;
 
 }
 
 .goNext{
 
     position: fixed;
-    left: 95%;
+    left: 85%;
+
+}
+
+.goIndex{
+
+    position: fixed;
+    bottom: 15%;
 
 }
 
