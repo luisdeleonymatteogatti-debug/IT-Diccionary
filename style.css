@@ -228,6 +228,20 @@ img {
     box-shadow: 0 8px 24px rgba(52, 154, 236, 0.5);
 }
 
+
+.goBack{
+
+    position: absolute;
+
+}
+
+.goNext{
+
+    position: absolute;
+    left: 50%;
+
+}
+
 .button:active {
     transform: translateY(0);
 }
