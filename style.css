@@ -232,13 +232,13 @@ img {
 .goBack{
 
     position: fixed;
-
+    
 }
 
 .goNext{
 
     position: fixed;
-    left: 85%;
+    left: 90%;
 
 }
 
